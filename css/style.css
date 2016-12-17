@@ -1,0 +1,37 @@
+
+body {
+  background-color: lightyellow;
+  margin-top: 6%;
+}
+
+h1 {
+  font-family: 'Francois One', sans-serif;
+  color: 	#424242;
+  text-align: center;
+  margin-bottom: 3%;
+}
+
+#quote {
+  font-size: 1.4em;
+}
+
+#saidBy {
+  font-size: 1.2em;
+}
+
+.btn, .jumbotron, .twitter-share-button {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+}
+
+#twitter {
+  margin-top: 3%;  
+}
+
+#tweet-icon {
+  display: inline-block;
+  margin-left: -5px;
+}
+
+footer {
+  margin-top: 3%;
+}
