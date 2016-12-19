@@ -23,7 +23,7 @@ $(document).ready(function() {
 			}
 		});
 	}
-
+	//Get quote
 	$('#getQuote').on('click', function() {
 
 		$('.new').fadeOut(100).fadeIn(800);
@@ -37,7 +37,7 @@ $(document).ready(function() {
 		$('body').css({
       'backgroundColor': backgroundColorChange[randColor]
     });
-    
+    //Tweet it
     $('#tweet').on('click', function() { //Open a new window when tweet button is clicked with appropriate variable infromation
 			window.open('https://twitter.com/intent/tweet/?text=' + encodeURIComponent(quote + ' -by ' + author), "", 'width=600,height=450');
 		});
