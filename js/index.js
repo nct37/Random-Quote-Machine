@@ -23,7 +23,7 @@ $(document).ready(function() {
 			}
 		});
 	}
-	//Get quote
+//Get quote
 	$('#getQuote').on('click', function() {
 
 		$('.new').fadeOut(100).fadeIn(800);
@@ -34,9 +34,9 @@ $(document).ready(function() {
 		var backgroundColorChange = ["#f2d5d5", "#efd5f2", "#d6d5f2", "#d5e5f2", "#c7f9f4", "#c7f9e2", "#c8f9c7", "#ecf9c7", "#f9f5c7", "#f9e4c7", "#f9cfc7"]; //set an array of colors for background change
 		var randColor = Math.floor(Math.random() * backgroundColorChange.length); //Randomize color
  
-		$('body').css({
+		$('body').animate({
       'backgroundColor': backgroundColorChange[randColor]
-    });
+    }, 2000);
     //Tweet it
     $('#tweet').on('click', function() { //Open a new window when tweet button is clicked with appropriate variable infromation
 			window.open('https://twitter.com/intent/tweet/?text=' + encodeURIComponent(quote + ' -by ' + author), "", 'width=600,height=450');
