@@ -1,60 +1,58 @@
 <!DOCTYPE html>
-<html >
+<html>
+
 <head>
-  <meta charset="UTF-8">
-  <title>Random Quote Machine</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-<link href="https://fonts.googleapis.com/css?family=Francois+One" rel="stylesheet">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  
-  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
-
-      <link rel="stylesheet" href="css/style.css">
-
-  
+    <meta charset="UTF-8">
+    <title>Random Quote Machine</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Francois+One" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-  <body>
-   <div class="container">
-    <div class="row">
-      <h1>Random Quote Machine</h1>
-      <!--Show the quote-->
-      <div class="jumbotron">
-        <blockquote class="text-center">
-          <p id="quote" class="new">For inspiration click the button!
-          </p>
-          <footer id="saidBy"></footer>
-        </blockquote>
-      </div>
-    </div>
-  </div>
-  <!--New Quote and Tweet Buttons-->
-  <div class="container">
-    <div class="row text-center">
-      <div class="col-md-12">
-        <button class="btn btn-danger btn-lg" id="getQuote" title="Be Inspired!">New Quote</button>
-      </div>
-    </div>
-    <div class="row text-center">
-      <div class="col-md-12">
-        <div id="twitter"><a href="#" title="Tweet the inspiration!">
-          <button id="tweet" type="button" class="btn btn-primary btn-lg"><i class="fa fa-twitter"></i></button></a>
-        </div>
-      </div>
-    </div>
-    <!--Credit-->
-    <footer class="container-fluid text-center">
-      <p>by <a href="http://codepen.io/nct37/" target="_blank">Nick Tanner</a></p>
-      <p>credit to <a href="http://forismatic.com/en/api/" target="about_blank">forismatic api</a></p>
-    </footer>
-  </div>
-</body>
-  <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js'></script>
-<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
-<script src='https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.0/jquery-ui.min.js'></script>
 
+    <div class="container">
+        <div class="row">
+            <h1>Random Quote Machine</h1>
+            <!--Show the quote-->
+            <div class="jumbotron">
+                <blockquote class="text-center">
+                    <p id="quote" class="new">For inspiration click the button!
+                    </p>
+                    <footer id="saidBy"></footer>
+                </blockquote>
+            </div>
+        </div>
+    </div>
+    <!--New Quote and Tweet Buttons-->
+    <div class="container">
+        <div class="row text-center">
+            <div class="col-md-12">
+                <button class="btn btn-danger btn-lg" id="getQuote" title="Be Inspired!">New Quote</button>
+            </div>
+        </div>
+        <div class="row text-center">
+            <div class="col-md-12">
+                <div id="twitter">
+                    <a href="#" title="Tweet the inspiration!">
+                        <button id="tweet" type="button" class="btn btn-primary btn-lg"><i class="fa fa-twitter"></i></button></a>
+                </div>
+            </div>
+        </div>
+        <!--Credit-->
+        <footer class="container-fluid text-center">
+            <p>by <a href="http://codepen.io/nct37/" target="_blank">Nick Tanner</a></p>
+            <p>credit to <a href="http://www.quotzzy.co/api" target="about_blank">Quotzzy</a></p>
+        </footer>
+    </div>
+
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js'></script>
     <script src="js/index.js"></script>
 
 </body>
+
 </html>
